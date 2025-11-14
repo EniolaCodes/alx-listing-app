@@ -18,3 +18,22 @@ export interface ButtonProps {
   icon?: React.ReactNode;
   loading?: boolean;
 }
+
+export interface PropertyProps {
+  name: string;
+  address: {
+    state: string;
+    city: string;
+    street: string;
+  };
+  rating: number;
+  category: string[];
+  price: number;
+  offers: {
+    bed: string;
+    shower: string;
+    occupants: string;
+  };
+  image: string;
+  discount?: string;
+}

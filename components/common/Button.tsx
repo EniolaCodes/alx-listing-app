@@ -16,7 +16,7 @@ const Button = ({
 
   const variants = {
     primary: "bg-primary text-primary-foreground hover:bg-primary/90",
-    secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/80",
+    secondary: "bg-blue-500 text-white hover:bg-blue-600",
     outline:
       "border border-input bg-transparent hover:bg-accent hover:text-accent-foreground",
     ghost: "hover:bg-accent hover:text-accent-foreground",
